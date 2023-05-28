@@ -7,7 +7,9 @@ import ProjectCard from './projectCard'
 export default function Projects() {
   return (
     <div className="flex flex-col justify-center gap-3 overflow-hidden bg-alt p-16">
-      <h1 className="mb-20 text-3xl font-semibold underline">PROJETOS</h1>
+      <h1 className="mb-20 w-full text-center text-3xl font-semibold underline">
+        Projetos
+      </h1>
       <ProjectCard
         image={taskfullapp}
         title="Taskfull"

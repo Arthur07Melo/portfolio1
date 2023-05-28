@@ -2,6 +2,7 @@ import { ReactNode } from 'react'
 import { Karma } from 'next/font/google'
 import Navbar from './navbar'
 import Head from 'next/head'
+import Footer from './footer'
 
 type propsType = {
   children: ReactNode
@@ -23,6 +24,7 @@ export default function Layout(props: propsType) {
       </Head>
       <Navbar />
       <main>{props.children}</main>
+      <Footer />
     </div>
   )
 }
