@@ -5,15 +5,18 @@ export default function ProjectCard(props: {
   title: string
   description: string
   techs: string[]
+  href: string
 }) {
   return (
     <div className="flex flex-wrap justify-center gap-3 rounded-lg md:items-center">
-      <Image
-        src={props.image}
-        width={673}
-        alt="projectImage"
-        className="shrink-0 rounded-md"
-      />
+      <a href={`${props.href}`} target="_blank" rel="noreferrer">
+        <Image
+          src={props.image}
+          width={673}
+          alt="projectImage"
+          className="shrink-0 rounded-md"
+        />
+      </a>
       <div className="space-y-5 md:w-6/12">
         <h1 className="text-2xl font-bold">{props.title}</h1>
         <h1 className="text-2xl font-bold">Descrição</h1>

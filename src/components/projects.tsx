@@ -30,6 +30,7 @@ export default function Projects() {
             'expressJS',
             'PrismaORM',
           ]}
+          href="https://taskfull-web.vercel.app/"
         />
 
         <div className="h-[1px] w-full bg-gray-800/30" />
@@ -41,6 +42,7 @@ export default function Projects() {
             'Site feito utilizando NextJS, com base no consumo da API Viacep, que mostra os dados de cada localidade de acordo com o CEP inserido.'
           }
           techs={['Typescript', 'React', 'Tailwindcss', 'nextJS']}
+          href="https://ver-cep-app.vercel.app/"
         />
 
         <div className="h-[1px] w-full bg-gray-800/30" />
@@ -52,6 +54,7 @@ export default function Projects() {
             'Site feito em nextjs, utilizando talwindcss e typescript, bem como alguns componentes extras (radix UI e outros). Por enquanto apenas frontend desenvolvido.'
           }
           techs={['Typescript', 'React', 'Tailwindcss', 'nextJS']}
+          href="https://reviwers.vercel.app/"
         />
 
         <div className="h-[1px] w-full bg-gray-800/30" />
@@ -63,6 +66,7 @@ export default function Projects() {
             'Calculadora simples feita em react, utilizando o template de projetos do viteJS. Utilizados também: Html, Css, Javascript.'
           }
           techs={['Typescript', 'React', 'CSS3', 'Vite']}
+          href="https://calculator-reactproject.vercel.app/"
         />
       </div>
       <div className="w-screen bg-mainbg">
