@@ -9,7 +9,10 @@ import ProjectCard from './projectCard'
 export default function Projects() {
   return (
     <div className="bg-alt">
-      <div className="flex flex-col justify-center gap-3 overflow-hidden p-16 ">
+      <div
+        className="flex flex-col justify-center gap-3 overflow-hidden p-16 "
+        id="projects"
+      >
         <h1 className="mb-20 w-full text-center text-3xl font-semibold underline">
           Projetos
         </h1>
