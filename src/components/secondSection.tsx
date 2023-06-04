@@ -16,8 +16,8 @@ export default function SecondSection() {
         <p className="text-[20px]">
           Entusiasta apaixonado por tecnologia e sempre buscando melhorar.
           Atualmente estudando desenvolvimento web tanto back-end quanto
-          front-end. Atualmente cursando Ciências da Computação na UEPB
-          (Universidade estadual da Paraíba).
+          front-end e cursando Ciências da Computação na UEPB (Universidade
+          estadual da Paraíba).
         </p>
       </div>
       <Image className="w-full" src={triangle} alt="triangle" />
